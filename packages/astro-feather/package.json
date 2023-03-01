@@ -1,0 +1,31 @@
+{
+  "name": "astro-feather",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.ts",
+    "./*": "./dist/*.astro"
+  },
+  "main": "./dist/index.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.14.2",
+    "feather-icons": "^4.29.0",
+    "fs-extra": "^11.1.0",
+    "pascal-case": "^3.1.2",
+    "path": "^0.12.7",
+    "prettier": "^2.8.4",
+    "prettier-plugin-astro": "^0.8.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "build": "ts-node ./src/build.ts"
+  },
+  "author": "Gabriel Yang <gang.gabriel.yang@gmail.com>",
+  "license": "MIT"
+}
