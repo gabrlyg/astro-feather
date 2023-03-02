@@ -1,1 +1,1 @@
-./packages/astro-feather/README.md
+packages/astro-feather/README.md
