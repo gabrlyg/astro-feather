@@ -2,7 +2,7 @@
   "name": "astro-feather",
   "version": "1.0.0",
   "description": "Simply beautiful open source icons as Astro components.",
-  "homepage": "astro-feather.gabrlyg.dev",
+  "homepage": "https://astro-feather.gabrlyg.dev",
   "author": "Gabriel Yang <gang.gabriel.yang@gmail.com> (https://gabrlyg.dev)",
   "type": "module",
   "exports": {
