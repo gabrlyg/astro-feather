@@ -56,7 +56,7 @@ import * as AstroFeather from 'astro-feather'
 ## Contributing
 
 1. Fork it!
-2. Create your feature branch: git checkout -b shiny-new-feature
-3. Commit your changes: git commit -am 'feat: add some feature'
-4. Push to the branch: git push origin shiny-new-feature
+2. Create your feature branch: `git checkout -b shiny-new-feature`
+3. Commit your changes: `git commit -am 'feat: add some feature'`
+4. Push to the branch: `git push origin shiny-new-feature`
 5. Submit a PR.
