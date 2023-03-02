@@ -10,7 +10,7 @@ const { name, githubRepo } = Astro.props
 <header class="flex justify-between items-center px-4 w-full container py-16">
   <div class="flex flex-col gap-2">
     <h1 class="font-mono text-3xl font-semibold">{name}</h1>
-    <h2 class="font-mono text-base">Simply beautiful open source icons as <a href="https://astro.build/" class="h-3 inline-block px-2 hover:outline-dotted hover:outline-2 group outline-offset-4" aria-label="Astro"><AstroLogo /></a> components</h2>
+    <h2 class="font-mono text-base">Simply beautiful open source icons as <a href="https://astro.build/" class="h-3 inline-block px-2 hover:outline-dotted hover:outline-2 group outline-offset-4" aria-label="Astro"><AstroLogo /></a> components.</h2>
   </div>
-  <a href={githubRepo} class="p-4 hover:bg-astro-bg-darker"><GithubIcon /></a>
+  <a href={githubRepo} class="p-4 hover:bg-astro-bg-darker" aria-label="GitHub"><GithubIcon /></a>
 </header>
