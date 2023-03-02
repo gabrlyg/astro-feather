@@ -30,7 +30,7 @@
     "astro-feather"
   ],
   "scripts": {
-    "build": "ts-node ./src/build.ts"
+    "build": "ts-node-esm ./src/build.ts"
   },
   "license": "MIT"
 }
