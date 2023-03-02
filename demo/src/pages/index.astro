@@ -15,13 +15,15 @@ import SITE_CONFIG from '../site-config.json';
   <body class="bg-gradient-to-br from-astro-bg to-[#fdfeff] flex justify-center items-center flex-col">
     <Header {...SITE_CONFIG} />
     <main class="w-full flex justify-center flex-col px-4">
-      <div class="container w-full grid grid-cols-2 sm:grid-cols-3 md:grid-colss-4 lg:grid-cols-5 gap-4 self-center">
+      <div class="container w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 self-center">
         {
           Object.values(AstroFeather).map((icon) => {
             const Icon = icon;
             return (
               <button class="flex flex-row justify-start items-center p-4 hover:bg-astro-bg-darker gap-4">
-                <Icon size={24}/>
+                <div class="w-6 h-6">
+                  <Icon size={24}/>
+                </div>
 								<span class="font-mono text-sm">{icon.name}</span>
               </button>
             );
